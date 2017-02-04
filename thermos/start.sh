@@ -17,7 +17,7 @@ cd /home/container
 
 if [ ! -d "libaries" ]; then
    wget -q https://github.com/CyberdyneCC/Thermos/releases/download/58/libraries.zip
-   unzip libraries.zip
+   unzip -q libraries.zip
    rm libraries.zip
 fi
 
